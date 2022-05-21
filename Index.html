@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Implementation of bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!--Implementation of bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!--Implementation of custom CSS-->
+    <link rel="stylesheet" href="data/main.css" />
+    <!--Implementation of JS-->
+    <script src="data/main.js" ></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #131213;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" id="navbar-brand">Portfolio.JoseV</a>
+              </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100">
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link active" href="#"><i class="bi-house" id="navbarIcon" style="font-size: 1.5rem; color: rgb(154, 60, 243);"></i>Home</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#aboutMeTitle"><i class="bi-person-workspace" id="navbarIcon" style="font-size: 1.5rem; color: rgb(154, 60, 243);"></i>About Me</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#projectsHeader"><i class="bi-code-square" id="navbarIcon" style="font-size: 1.5rem; color: rgb(154, 60, 243);"></i>Projects</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#resumeHeader"><i class="bi-file-text" id="navbarIcon" style="font-size: 1.5rem; color: rgb(154, 60, 243);"></i>Resume</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#contactHeader"><i class="bi-person-bounding-box" id="navbarIcon" style="font-size: 1.5rem; color: rgb(154, 60, 243);"></i>Contact Me</a>
+                    </li>
+                    <li class="nav-item ms-auto" id="nav-item-HiringStatus">
+                        <i class="bi-info-circle" id="navbarIcon" style="font-size: 1.5rem; color: rgb(255, 255, 255);"></i>Hiring Status
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!--navbar-->
+    <!--Content-->
+    <div class="container" id="homeHeader">
+        <H1>
+            <a href="https://github.com/joseplss/" target="_blank" id="headerLink"><i class="bi-github" id="headerIcon"></i>Github</a>
+            <span id="linkSpace"></span>
+            <a href="https://www.linkedin.com/in/jose-villalobos-47a499235/" target="_blank" id="headerLink"><i class="bi-linkedin" id="headerIcon"></i>LinkedIn</a>
+            <span id="linkSpace"></span>
+            <a href="https://www.codewars.com/users/joseplss" target="_blank" id="headerLink"><i class="bi-code-square" id="headerIcon"></i>Codewars</a>
+        </H1>
+    </div>
+    <div class="container" id="aboutMeHeader">
+        <h2>Full Stack Software Developer & IT Specialist</h2>
+    </div>
+    <div class="container" id="aboutMeImage">
+        <img src="data/Images/avatar.svg" class="img-fluid" alt="avatar"/>
+    </div>
+    <div class="container" id="aboutMeSubHeader">
+        <h3>C# focused developer with additional knowledge of JavaScript, SQL, CSS, and HTML</h3>
+    </div>
+    <div class="container" id="hiringHeader">
+        <h3>If you are interested in business inquiries, please feel free to contact me</h3>
+    </div>
+    <div class="container" id="aboutMeSection">
+        <!--cards-->
+        <div class="card-group">
+            <div class="card" id="languageCards">
+                <img class="card-img-top" src="data/Images/frontEndCard.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Front End Development</h5>
+                <p class="card-text">
+                    Making sure the website looks sharp is important. <br><br>
+                    I have the essential skills necessary to polish and refine any website with outstanding graphical user interface.
+                </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">(CSS) Cascading Style Sheets</li>
+                <li class="list-group-item">(HTML) HyperText Markup Language</li>
+                <li class="list-group-item">(JS) JavaScript</li>
+                </ul>
+            </div>
+            <span id="languageCardsSpacing"></span>
+            <div class="card" id="languageCards">
+                <img class="card-img-top" src="data/Images/backEndCard.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Backend Development</h5>
+                    <p class="card-text">
+                        The code on the back is the heart of the program. With outstanding code, the program can run flawlessly<br><br>
+                        With the main focus of C#, developing .NET applications is my specialty. I am always improving my code and learning new languages on the way.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">C#</li>
+                        <li class="list-group-item">(SQL) Structured Language Query</li>
+                        <li class="list-group-item">Git</li>
+                    </ul>
+                </div>
+            </div>
+            <span id="languageCardsSpacing"></span>
+            <div class="card" id="languageCards">
+                <img class="card-img-top" src="data/Images/ITCard.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">IT Specialist</h5>
+                    <p class="card-text">
+                        At the age of 14, I fell inlove with how a computer works. Ever since I have learned the structure of the personal computer and self-taught networking, hardware, and software technologies.<br><br>
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Knowledge of computer science technology</li>
+                        <li class="list-group-item">Understanding of networks and internet</li>
+                        <li class="list-group-item">Experience with virtual machines, computer hardware</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Title with image with summary about me-->
+    <div class="container" id="aboutMeTitle">
+        <h1>Jose Villalobos</h3>
+    </div>
+    <div class="container" id="aboutMePhoto">
+        <img class="img-fluid" src="data/Images/Picture.webp"/>
+    </div>
+    <div class="container" id="aboutMeDetails">
+        <p id="aboutMeP">
+            Being born and raised in Orange County (CA), I always had a desire to work with everything that revolves around a computer.<br>
+            At 14, I originally was going to go to prom with some friends and my parents gave me money for going. We made a plan...<br>
+            Instead of going, we were going to all head to my friends house for the night and save that money so we can all each buy a computer.<br><br>
+            Once I bought all the parts, I built my very first computer. I was interested on how me putting components in somehow made the PC work.<br>
+            Then I got invested in learning the hardware, then the networking to understand how the internet works, and then how programs are created for it.<br><br>
+            I started off learning C++ then decided to go all force to learning C#, SQL, and JavaScript. I am interested in how coding languages work,<br>
+            So I am always learning new languages and understanding how they all function in detail.<br><br>
+            I am a very open and talkative, I always feel like everyone's day should be a good one so I always try to bring a smile wherever I am.<br>
+            Charisma and open to criticism is something I believe is key to a working environment and I always strive with my work.<br><br>
+            <b><u>Let me be a part of your team. Let's create work where we can all be proud of and enjoy our work environment.</u></b>
+        </p>
+    </div>
+    <div class="container" id="projectsHeader">
+        <h1>Current Projects</h1>
+    </div>
+    <div class="container" id="projectsCards">
+        <div class="card-group" id="allProjectCardGroup">
+            <div class="card" id="projectCard">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/sync/C5627AQEZRZ6HRRAS8Q/articleshare-shrink_800/0/1652476824232?e=1653703200&v=beta&t=QJConk6bMIzaz8hbO8QFhC0voLVBzFoHPWViz2jBmH8" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ReproBuy</h5>
+                <p class="card-text">
+                    ReproBuy is a web application with SQL that allows user to create, edit, and delete their product listing.<br><br>
+                     They can only delete/edit their own products that is tied to their email. The webpage pulls and writes user input into the database to store.<br><br>
+                      Not only does it contain C# for the logic of the SQL database and handling specific elements of HTML depeneding on what the user inputs,
+                       it also has an add to cart feature using Javascript to add and then buy the selected products.
+                </p>
+                <a href="https://reprobuy20220512153917.azurewebsites.net/"  target="_blank" class="btn btn-primary">Live page link</a>
+                <a href="https://github.com/joseplss/ReproBuy"  target="_blank" class="btn btn-primary">Github code</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project was created in 2022</small>
+              </div>
+            </div>
+            <span id="projectCardSpacing"></span>
+            <div class="card" id="projectCard">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/sync/C4E27AQGsJtaBWsNc4Q/articleshare-shrink_800/0/1652461523472?e=1653703200&v=beta&t=Tvt2HPk5eLJ-yoUfx4JLOmZbJH-2-SZb2nkHzzbme8s" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">"Best Buy" practices</h5>
+                <p class="card-text">
+                    Using ORM and Dapper, this program uses a database of a mock-parody of a Best Buy database using MySQL and able to output the information into the console. It also allows users to add an item themselves if they'd like.<br><br>
+                    It might not work due to needing access for a local database.
+                </p>
+                <a href="https://github.com/joseplss/BestBuyPractices"  target="_blank" class="btn btn-primary">Github code</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project was created in 2022</small>
+              </div>
+            </div>
+            <span id="projectCardSpacing"></span>
+            <div class="card" id="projectCard">
+              <img class="card-img-top" src="https://media-exp1.licdn.com/dms/image/sync/C4E27AQF7_UzdQauENg/articleshare-shrink_800/0/1652461294233?e=1653703200&v=beta&t=8H4PROe0VfPVCiMv3iOK58ozx0zPSL-cGJUcoAcYtXU" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Taco Parser</h5>
+                <p class="card-text">Taco Parser is an excercise that imports an worksheet containing geocordinates from Taco Bells around the East Coast.<br><br>
+                    It's then able to parse all locations and save it into an array. It will then check every index of the array and then compares with the next index to see if it is the farthest.<br><br>
+                    Once parsed, it will find the two farthest Taco Bell locations and output the results.
+                </p>
+                <a href="https://github.com/joseplss/TacoParser"  target="_blank" class="btn btn-primary">Github code</a>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Project was created in 2022</small>
+              </div>
+            </div>
+            <span id="projectCardSpacing"></span>
+            <div class="card" id="projectCard">
+                <img class="card-img-top" src="https://opengraph.githubassets.com/32c58b814ea7dfb353ab85517dfb007fe487e9a985725e8ec7499b7928b3868c/joseplss/ASPNET" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">ASP.NET</h5>
+                  <p class="card-text">
+                      This project is what converts "Best Buy" project from terminal into a web application
+                  </p>
+                  <a href="https://github.com/joseplss/ASPNET/"  target="_blank" class="btn btn-primary">Github code</a>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Project was created in 2022</small>
+                </div>
+              </div>
+          </div>  
+    </div>
+    <div class="container" id="resumeHeader">
+        <h1>Resume</h1>
+    </div>
+    <div class="container" id="resumeLinkHeader">
+        <h3><a class="nav-link" href="data/files/Functional Resume.pdf" target="_blank" id="resumeLink"><i class="bi-file-earmark-text" id="resumeLinkIcon" style="font-size: 2rem; color: rgb(199, 199, 199);"></i>Link to resume DOC</a></h3>
+    </div>
+    <div class="container" id="resumeSpacingContainer"></div>
+    <div class ="container" id="resumeDoc">
+        <div class="row">
+            <div class="col-lg">
+                <h3>Summary</h3>
+                <p>
+                    Full-Stack Software Engineer with experience of creating applications ranging from console applications to web applications using multiple coding languages and frameworks with a core focus on C#. Proud of projects that I have worked on as well as improving myself and always inspired to learn new languages. Vehement about creating a bond with multiple teams within the company to ensure customer satisfaction and ensure methodologies are accurate and presented.
+                </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg">
+                <h3>Skills</h3>
+                <p>
+                    -Web-based software engineering (C#, C++)<br>
+                    -Code reviews<br>
+                    -Software applications<br>
+                    -Database management software<br>
+                    -Virtualization technologies<br>
+                </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg">
+                <h3>Education</h3>
+                <p>
+                    TrueCoders (Birmingham, AL): Programming course enhancing my development and language skills. Using language for software engineering using C#, SQL, HTML, CSS, JavaScript, ASP.Net, Git ,etc.<br><br>
+                    SaddleBack College: Full-course specialization in C++
+                </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg">
+                <h3>Work History</h3>
+                <p>
+                    CDS Contractor: Created and developed a C++ application that allows inputs of how many employees are working in a given shift. It outputs an effective time when another employee should clock in and go cover breaks and lunches for everyone working within their shift periods. This once used binder full of papers to figure out an effective time became obsolete.
+                </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-lg">
+                <h3>Projects</h3>
+                <p>
+                    <b>ReproBuy</b> - a .Net application using an MVC framework that can be used to buy and sell products on the site. It stores the user's listed product information into an MSSQL database. It can then be viewed, edited, and deleted. It also uses front-end languages to visualize the site using Javascript, JQuery, HTML,and CSS.<br><br>
+                    <b>TacoParser</b> - Uses the GeoCoordinate.NetCore NuGet package to calculate and display distances between two locations (example being TacoBell) by giving a spreadsheet of locations.<br><br>
+                    <b>BestBuyPractices</b> - Through the console, can show all information of a MySQL mock-up BestBuy database. Can show all departments, products, reviews, reviewers, Category IDs, etc. It also allows users to edit and delete products through the console.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="resumeSpacingContainer"></div>
+    <div container id="contactHeader">
+        <h1>Contact</h1>
+    </div>
+    <div container id="contactForm">
+        <div class="container" id="form">
+            <h1>Email or message me on <a href="https://www.linkedin.com/in/jose-villalobos-47a499235/" target="_blank" id="contactLink"><i class="bi-linkedin" id="headerIcon"></i>LinkedIn</a></h1>
+            <form target="_blank" action="https://formsubmit.co/51d4d3136f4625de161ac5548d665094" method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col" id="emailCol">
+                    <input type="text" name="name" class="form-control" placeholder="John Doe" required>
+                  </div>
+                  <div class="col" id="emailCol">
+                    <input type="email" name="email" class="form-control" placeholder="email@example.com" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <br>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+            </form>
+          </div>
+    </div>
+      <!--footer-->
+  <footer class="border-top footer text-muted">
+    <div class="container" id="footer">
+      &copy; 2022 - Portfolio.JoseV.site <a href="https://www.linkedin.com/in/jose-villalobos-47a499235/" target="_blank" id="contactLink"><i class="bi-github" id="headerIcon"></i>Link to github code of site</a>
+    </div>
+  </footer>
+    <!--Footer-->
+    <!--popper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous">
+    </script>
+    <!--JQuery JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+        crossorigin="anonymous">
+    </script>
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

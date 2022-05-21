@@ -1,0 +1,267 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+  }
+/* Navbar*/
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+#navbar-brand{
+  padding-left:10px;
+  padding-right:10px;
+}
+#navbarIcon{
+  padding-left:10px;
+  padding-right:10px;
+  display: flex;
+  justify-content: center;
+}
+.nav-item:hover{
+  background-color:rgba(145, 145, 145, 0.356);
+  animation-name: buttonBackground;
+  border-radius: 5px;
+  animation-duration: 0.5s;
+}
+/*Link Header*/
+#homeHeader{
+  /*100% width*/
+  min-width: 100%;
+  /*center content horizontally*/
+  display: flex;
+  justify-content: center;
+  /*BG color*/
+  background-color:rgb(154, 60, 243);
+  /*eyecandy*/
+  box-shadow: 7px 7px #44004d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#headerIcon{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#headerLink{
+  color:white;
+  font-size: 30px;
+  text-decoration: none;
+}
+#linkSpace{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#nav-item-HiringStatus{
+  padding-top: 10px;
+}
+/*AboutMeContainer*/
+#aboutMeHeader{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+#aboutMeDetails{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+#aboutMeImage{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+#aboutMeP{
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2E2E2E;
+  border-style: solid;
+  border-width: 1px;
+  border-color:rgb(255, 255, 255);
+  border-radius: 5px;
+}
+#aboutMePhoto{
+  display: flex;
+  justify-content: center;
+  height: 45%;
+  width: 45%;
+  padding-bottom: 50px;
+}
+#aboutMeSubHeader{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  color: rgb(163, 163, 163);
+}
+#aboutMeSection{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color:rgb(154, 60, 243);
+  min-width: 100%;
+}
+#aboutMeTitle{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+#hiringHeader{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 75px;
+}
+/*cards*/
+#languageCards{
+  width: 18rem;
+  color: black;
+  border-style: none;
+  box-shadow: 7px 7px 20px #44004d;
+  padding-bottom: 10px;
+
+}
+#languageCardsSpacing{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+/* Projects*/
+#projectsHeader{
+  display:flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  padding-top: 75px;
+}
+#projectsCards{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+#allProjectCardGroup{
+  color: black;
+}
+#projectCardSpacing{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#projectCard{
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px rgb(154, 60, 243);
+}
+/* Resume */
+#resumeSpacingContainer{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+#resumeHeader{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+#resumeLinkHeader{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgb(154, 60, 243);
+  min-width: 100%;
+}
+#resumeLink{
+  color: white;
+}
+#resumeLink:hover{
+  text-decoration: underline;
+}
+#resumeLinkIcon{
+  padding-right: 10px;
+}
+#resumeDoc{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2E2E2E;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+/*Contact*/
+#contactHeader{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+#contactForm{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+#form{
+  background-color: #2E2E2E;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+.form-group{
+  padding-top: 25px;
+}
+#emailCol{
+  padding-top: 10px;
+}
+#contactLink{
+  color:white;
+  text-decoration: none;
+}
+#contactLink:hover{
+  text-decoration: underline;
+}
+/* footer*/
+#footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*media*/
+@media only screen and (max-width: 600px) {
+  #navbarIcon{
+    display:none;
+  }
+  #nav-item-HiringStatus{
+    padding-top: 0px;
+    color: rgb(218, 218, 218);
+  }
+  #headerLink{
+    font-size: 15px;
+  }
+  #aboutmeImage{
+    width: 20%;
+    height: 20%;
+  }
+  #linkSpace{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #languageCardsSpacing{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #form{
+    width:max-content;
+  }
+}
+/*animation*/
+@keyframes buttonBackground {
+  from {background-color:transparent}
+  to {background-color:rgba(145, 145, 145, 0.356);}
+}
